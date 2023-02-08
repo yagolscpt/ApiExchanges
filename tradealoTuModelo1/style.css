@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,button{
+    border: 1px solid #ccc;
+}
+
+.etiqueta {
+    @apply border-orange-400 rounded-md p-1 max-h-10;
+}
+
+.miBoton {
+    @apply border-orange-400 rounded-md p-2 text-black hover:bg-orange-300
+}

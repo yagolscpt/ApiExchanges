@@ -1,0 +1,33 @@
+{
+  "name": "tradealotu",
+  "description": "Examen de interfaces modelo 1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "postcss": "^8.4.20",
+    "prettier": "2.8.1",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "cypress": "^12.1.0",
+    "vitest": "^0.26.1"
+  }
+}
